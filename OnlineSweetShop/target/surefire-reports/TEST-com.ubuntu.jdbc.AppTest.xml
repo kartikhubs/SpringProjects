@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ubuntu.jdbc.AppTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/test-classes:/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/classes:/home/kartik.newly/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-core/5.3.22/spring-core-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-jcl/5.3.22/spring-jcl-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-context/5.3.22/spring-context-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-beans/5.3.22/spring-beans-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-expression/5.3.22/spring-expression-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-jdbc/5.3.22/spring-jdbc-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-tx/5.3.22/spring-tx-5.3.22.jar:/home/kartik.newly/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar:/home/kartik.newly/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/home/kartik.newly/Downloads/spring-tool-suite-4-4.15.1.RELEASE-e4.24.0-linux.gtk.x86_64/sts-4.15.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.3.v20220515-1416/jre/lib"/>
+    <property name="sun.java.command" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/surefire/surefirebooter4467057267572145749.jar /home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/surefire 2022-07-19T10-25-18_019-jvmRun1 surefire14462318123801967974tmp surefire_02108735210210687523tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/test-classes:/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/classes:/home/kartik.newly/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-core/5.3.22/spring-core-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-jcl/5.3.22/spring-jcl-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-context/5.3.22/spring-context-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-aop/5.3.22/spring-aop-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-beans/5.3.22/spring-beans-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-expression/5.3.22/spring-expression-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-jdbc/5.3.22/spring-jdbc-5.3.22.jar:/home/kartik.newly/.m2/repository/org/springframework/spring-tx/5.3.22/spring-tx-5.3.22.jar:/home/kartik.newly/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar:/home/kartik.newly/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/kartik.newly"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/home/kartik.newly/Downloads/spring-tool-suite-4-4.15.1.RELEASE-e4.24.0-linux.gtk.x86_64/sts-4.15.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.3.v20220515-1416/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc/target/surefire/surefirebooter4467057267572145749.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3+7"/>
+    <property name="user.name" value="kartik.newly"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.11.0-051100-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.3+7"/>
+    <property name="localRepository" value="/home/kartik.newly/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.3"/>
+    <property name="user.dir" value="/home/kartik.newly/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/jdbc"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.3+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.ubuntu.jdbc.AppTest" time="0.001"/>
+</testsuite>

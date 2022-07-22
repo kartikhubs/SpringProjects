@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="KARTIK" class="com.project.AdminModule.AdminDaoImp">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="KARTIKONE" class=" com.project.AdminModule.SweetDaoImp">
+	   <property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	
+	<bean id="CUSTOMER" class="com.project.CustomerModule.CustomerDaoImp">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	
+	<bean id="ORDER" class="com.project.CustomerModule.OrderDaoImp">
+	        <property name="dataSource" ref="dataSource"></property>
+	</bean>
+    
+       
+    
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/FIRST" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+	
+	<bean id="dataSourceOne"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/SECOND" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+	
+	
+	
+	
+	
+	
+
+
+</beans>
